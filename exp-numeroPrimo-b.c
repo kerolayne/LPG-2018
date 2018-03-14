@@ -11,7 +11,7 @@ int eh_primo2(int x);
 int main(int argc, char const *argv[]) {
   scanf("%d\n", & n );
 
-  if (eh_primo(n)) {
+  if (eh_primo(n) //eh_primo2(n)) {
     printf("é primo!!\n");
   }else{
     printf("não é primo!!\n");
