@@ -1,0 +1,25 @@
+/* --processamento se repete
+    Ex: integral definida, fatorial, potenciacao,...
+   --entrada se repete
+    Ex: média de uma serie de valores.
+   --saida se repete
+    Ex: geracao de sequencia de valores
+   --Rotina que se repete
+    Ex:Menu para o usuário.
+    em C, as estruturas de repetição são:
+---------------------------
+    while(  ){            |
+                          |
+    }                     |
+---------------------------
+    do{                   |
+                          |
+    }while( ){            |
+                          |
+    }                     |
+---------------------------
+    for(i=1, i > b, i++){ |
+                          |
+    }                     |
+---------------------------
+    */
