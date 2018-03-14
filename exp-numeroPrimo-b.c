@@ -6,6 +6,7 @@
 //protétipo das funcoes
 int eh_primo(int x);
 int conta_div(int k);
+int eh_primo2(int x);
 
 int main(int argc, char const *argv[]) {
   scanf("%d\n", & n );
@@ -32,4 +33,13 @@ int conta_div(int k){
     }
   }
   return cont;
+}
+int eh_primo2(int x){
+  int i;
+  for(i = 2; i <= x/2; i++){
+    if(x % i == 0 ){
+      return 0;
+    }
+  }
+  return 1;
 }
