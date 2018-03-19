@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+int converte(char x){
+  return x - 48;
+}
+
 int eh_digito(char x){
   if(x >= '0' && x <= '9'){
     return 1;
@@ -11,6 +15,7 @@ int eh_digito(char x){
 }
 
 int main() {
+  
   char car;
   scanf("%c", &car);
 
