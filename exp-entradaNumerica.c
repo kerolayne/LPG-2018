@@ -17,6 +17,7 @@ int main() {
 
   if(eh_digito(car)){
     printf("é digito:\n", );
+    printf("%d\n", converte(car));
   }else{
     printf("Não é digito!\n", );
   }
