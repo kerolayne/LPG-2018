@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+int gets(int){
+  char str[30];
+  fgets(str, 29 /*qtd max de caracteres*/, stdin/*entrada padrão*/);
+}
+
 int compara_str(char *a, char *b){
   int i;
   
