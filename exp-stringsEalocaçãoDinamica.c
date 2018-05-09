@@ -3,7 +3,7 @@
    -ponteiros de char, posteriormente fazer alocação;
       int n = 20
       char = *p;
-      p = malloc(sizef(char) * n);
+      p = malloc(sizeof(char) * n);
 
 */
 
