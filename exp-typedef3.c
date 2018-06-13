@@ -2,7 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 
-
+void mostra_conta(/*...*/){
+  //completar
+}
+void le_conta(/*...*/) {
+  //completar
+}
 typedef struct{
   int cpf;
   char nome[31];
@@ -31,6 +36,7 @@ int main(int argc, char const *argv[]) {
     fflush(stdin);
     printf("continuar?(s/n)\n");
     scanf("%c", &c);
-  }while(c=='s')
+  }while(c=='s');
+  free(v);
   return 0;
 }
