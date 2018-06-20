@@ -19,7 +19,7 @@ int fwrite(void *end, size_t tam, int qtd, FILE *arq);
 
 int main(int argc, char const *argv[]) {
   char s[20] = "testando...1,2,3";
-  int v[10] = {1,2,3,4,5,6,7,8,93,10};
+  int v[10] = {1,2,3,4,5,6,7,8,9,10};
 
   FILE *out = fopen ("teste.bin", "wb");
 
@@ -29,7 +29,7 @@ int main(int argc, char const *argv[]) {
   }
   fwrite(s,sizeof(char), 20, out);
 
-  fwrite(s,sizeof(int), 10, out);
+  fwrite(v,sizeof(int), 10, out);
 
   fclose(out);
 
