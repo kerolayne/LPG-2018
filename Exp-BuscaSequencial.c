@@ -1,4 +1,4 @@
-//dado um vetor e um valora ser buscado(chave), indicar que o valor foi encontrado(sua posição) ou indicarque não foi encontrado.
+//dado um vetor e um valor a ser buscado(chave), indicar que o valor foi encontrado(sua posição) ou indicar que não foi encontrado.
 
 int main(int argc, char const *argv[]) {
   int int v[10] = {7,4,11,66,21,27,-1,8,3,13};
