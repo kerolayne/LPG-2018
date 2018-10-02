@@ -24,13 +24,13 @@ typedef struct{
     Data datacad;
 }Musica;
 
-int apaga_reg(Musica *v, char n_reg);
-int inserir_reg(Musica *v, char n_reg);
-int alterar_reg(Musica *v, char n_reg);
-void mostrar(Musica *v);
-int consulta_reg(Musica *v, char n_reg);
-void ordena_lista(Musica *v);
-int procurar_musica(Musica *v, char n_reg);
+int apaga_reg(Musica *v, char n_reg); //Apaga
+int inserir_reg(Musica *v, char n_reg); //Insere nova música
+int alterar_reg(Musica *v, char n_reg); //Altera os registros de uma música
+void mostrar(Musica *v); //Mostra determinada Música
+int consulta_reg(Musica *v, char n_reg); //Consulta se a música existe
+void ordena_lista(Musica *v); //Ordena a lista por ordem alfabética
+int procurar_musica(Musica *v, char n_reg); //Procura a música por nome.
 
 int main(void){
     Musica *v = malloc(sizeof(Musica));
